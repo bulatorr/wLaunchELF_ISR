@@ -167,11 +167,11 @@ struct ds4report
     u32 SensorTimestamp;     // sensorTimestamp
     u8 Temperature;          // Temperature
     u32 Finger1ID      : 7;  // counter
-    u32 nFinger1Active : 1;  // 0 - active, 1 - unactive
+    u32 Finger1Active : 1;  // 0 - active, 1 - unactive
     u32 Finger1X       : 12; // finger 1 coordinates resolution 1920x943
     u32 Finger1Y       : 12;
     u32 Finger2ID      : 7;
-    u32 nFinger2Active : 1;
+    u32 Finger2Active : 1;
     u32 Finger2X       : 12; // finger 2 coordinates resolution 1920x943
     u32 Finger2Y       : 12;
     u8 Reserved7[12];   // Adaptive triggers
